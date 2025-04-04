@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+	<!-- Error 1: Root element should be Hotels -->
+	<Hotel>
+		<!-- First hotel with multiple errors -->
+		<Name>Westin</Name>
+		<Name>Westin Duplicate</Name>
+		<!-- Error 2: Two Name elements -->
+		<!-- Error 3: Missing Phone element -->
+		<Address _NearestAirport="Sky Harbor">
+			<!-- Error 4: No closing tag for Address -->
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<!-- Error 5: Missing required Zip element -->
+		</Address>
+		</Hotel>
+	<Hotel _Rating="4.5">
+		<Name>Hilton Phoenix Resort at the Peak</Name>
+		<Phone>602-997-2626</Phone>
+		<Address _NearestAirport="Sky Harbor">
+			<Number>7677</Number>
+			<Street>N 16th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85020</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Marriott Tucson University Park</Name>
+		<Phone>520-792-4100</Phone>
+		<Phone>800-627-7468</Phone>
+		<Address>
+			<Number>880</Number>
+			<Street>E 2nd St</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85719</Zip>
+		</Address>
+	</Hotel>
+	<Hotel _Rating="4.0">
+		<Name>Sheraton Mesa Hotel at Wrigleyville West</Name>
+		<Phone>480-664-1221</Phone>
+		<Address _NearestAirport="Phoenix-Mesa Gateway">
+			<Number>860</Number>
+			<Street>N Riverview</Street>
+			<City>Mesa</City>
+			<State>AZ</State>
+			<Zip>85201</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Hyatt Regency Scottsdale Resort and Spa</Name>
+		<Phone>480-444-1234</Phone>
+		<Address _NearestAirport="Sky Harbor">
+			<Number>7500</Number>
+			<Street>E Doubletree Ranch Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85258</Zip>
+		</Address>
+	</Hotel>
+	<Hotel _Rating="3.8">
+		<Name>DoubleTree by Hilton Flagstaff</Name>
+		<Phone>928-773-8888</Phone>
+		<Phone>800-555-1212</Phone>
+		<Address>
+			<Number>1175</Number>
+			<Street>W Route 66</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86001</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Embassy Suites by Hilton Chandler</Name>
+		<Phone>480-961-8700</Phone>
+		<Address _NearestAirport="Sky Harbor">
+			<Number>4400</Number>
+			<Street>S Chandler Village Dr</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85226</Zip>
+		</Address>
+	</Hotel>
+	<Hotel _Rating="4.1">
+		<Name>Radisson Hotel Yuma</Name>
+		<Phone>928-783-8000</Phone>
+		<Address>
+			<Number>1501</Number>
+			<Street>S Redondo Center Dr</Street>
+			<City>Yuma</City>
+			<State>AZ</State>
+			<Zip>85365</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Best Western Inn of Sedona</Name>
+		<Phone>928-282-3072</Phone>
+		<Address _NearestAirport="Flagstaff Pulliam">
+			<Number>1200</Number>
+			<Street>W Hwy 89A</Street>
+			<City>Sedona</City>
+			<State>AZ</State>
+			<Zip>86336</Zip>
+		</Address>
+	</Hotel>
+	<Hotel _Rating="3.5">
+		<Name>La Quinta Inn and Suites by Wyndham Glendale</Name>
+		<Phone>623-412-2000</Phone>
+		<Phone>800-753-3757</Phone>
+		<Address>
+			<Number>5511</Number>
+			<Street>W Bell Rd</Street>
+			<City>Glendale</City>
+			<State>AZ</State>
+			<Zip>85308</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Comfort Inn and Suites Prescott Valley</Name>
+		<Phone>928-775-5777</Phone>
+		<Address _NearestAirport="Prescott Regional">
+			<Number>2601</Number>
+			<Street>N Crownpointe Dr</Street>
+			<City>Prescott Valley</City>
+			<State>AZ</State>
+			<Zip>86314</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
